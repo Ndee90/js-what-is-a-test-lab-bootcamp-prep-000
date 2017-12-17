@@ -1,6 +1,9 @@
 // write your code below!
 var name = "Susan"
-var height = 40
+var height = 74
 var message = ` is ${height} inches tall`
 
 module.exports = {name, height, message}
+
+console.log(height + " is less then 40")
+console.log(name + " is " + height + " inches tall ")
